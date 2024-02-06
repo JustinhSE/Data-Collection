@@ -8,7 +8,7 @@ using Unity.Robotics.ROSTCPConnector;
 public class RosPublisher: MonoBehaviour
 {
     ROSConnection ros;
-    public string topicName = "testtest";
+    public string topicName = "unityTopic";
    
     // The game object
     public GameObject cube;
